@@ -3,7 +3,7 @@
     font-weight: 400;
     color: #333;
     margin: 1rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .sg-subtitle {
@@ -13,5 +13,87 @@
     color: #666;
     text-transform: uppercase;
     margin: 2rem 0 .5rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.kleur {
+    width: 200px;
+    height: 75px;
+}
+
+#bruin {
+    background-color: var(--bruin);
+    margin-bottom: 20px;
+}
+
+#lichtbruin {
+    background-color: var(--licht-bruin);
+    margin-bottom: 20px;
+}
+
+#rood {
+    background-color: var(--rood);
+    margin-bottom: 20px;
+}
+
+#tekst {
+    font-family: Bahnschrift;
+    font-size: 25px;
+    color: black;
+}
+
+#titel {
+    font-family: Days One;
+    font-size: 25px;
+    color: black;
+}
+
+#vakantienaam {
+    font-family: Agency Fb;
+    font-size: 40px;
+    color: var(--bruin);
+    font-weight: bold;
+}
+
+#btn{
+    width: 270px;
+    height: 72px;
+    background-color: var(--licht-bruin);
+    font-family: Days One;
+    font-size: 20px;
+    border: none;
+}
+#btn:hover{
+    background-color: var(--bruin);
+}
+
+#inpt{
+    width: 370px;
+    height: 32px;
+    border-radius: 3px;
+    border-color: #BBBBBB;
+}
+
+
+
+
+#balkboven {
+    margin-top: 50px;
+    background-color: var(--bruin);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 81px;
+
+    width: 100%;
+    font-family: Agency FB;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+#logoboven{
+    
+    width: 63px;
+    height: 113px;
 }
